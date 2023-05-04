@@ -1,0 +1,114 @@
+\section{Software Engineering}
+\label{sec:software_engineering}
+
+Software engineering is a systematic engineering appro
+
+\subsection{Model Driven Engineering}
+\label{sub:model_driven_engineering}
+
+Model Driven Development:
+Software development methodology instead of focusing on code, developers focus on model of system and domain concepts
+
+
+It aims to improve productivity
+short-term - functionality quantity
+long-term - reuse/maintenance
+
+At levels:
+personnel - concise and tailorable notation that takes in account all stakeholders and changes/fluctuation in personnel
+
+requirements - dynamic addition of new types at runtime without disrupting online systems and low maintenance efforts
+
+development platform - high interoperability levels
+
+deployment platform - user-definable mappings
+
+Issues It faces
+
+R1 The concepts available for creating models and the rules governing their use
+
+R2 The notation to use in depicting models
+
+R3 How the model’s elements represent real world elements, including software artifacts
+
+R4 Concepts to facilitate dynamic user extensions to model concepts, model notation, and the models created from them
+
+R5 Concepts to facilitate the interchange of model concepts and notation, and the models created from them
+
+R6 Concepts to facilitate user-defined mappings from models to other artifacts, including code
+
+Solutions
+Visual Modeling - R1-R3
+Object Orientation - R4 (Static)
+Metalevel Description Techniques  - R5-R6 + R4 (both static and dynamic)
+
+MetaModelling Layers
+M0 deals with user data 
+M1 deals with user concepts - model of user data
+M2 deals with the uml concepts used to define user concepts - meta-model
+M3 deals with the meta-object facility - meta-meta-model
+
+Layers are Divided Between Ontological (Domain Concepts) and Linguistic Metamodeling (Language Specification)
+
+M3+M2: Language Definition Layers
+M1+M0: Ontology Layers
+
+\subsection{Model}
+\label{sub:model}
+
+A model is an abstraction of a (real or language-based)
+system allowing predictions or inferences to be made.
+
+Features:
+Mapping - A model is based on an original
+Pragmatic - A model only reflects a (relevant) selection of an original’s properties
+Reduction - A model needs to be usable in place of an original with respect to some purpose.
+
+(there are more check EOM sources)
+
+Descriptive Models capture knowledge - requirements, domain analysis
+Prescriptive Models are "blueprints" of system
+
+Model New Definition:
+1. A theoretical projection of a possible or imaginary system.
+2. A small but exact copy of something. (Transformation Model)
+
+Token Models capture singular aspects of the original’s elements, i.e., they model individual properties of the elements in the system. (just a map)
+Type Models capture the universal aspects of a system’s elements by means of classification
+
+\subsection{Meta-Model}
+\label{sub:metamodel}
+
+Metamodel (Approx. Language)
+
+(Definitions from other sources than the main one!!!)
+Model that defines the language for expressing a model
+Model of a language of models
+Specification model for which the systems under study being specified are models in a certain modeling language.
+(Definitions from other souces than the main one)
+
+Properties:
+Acyclic => Irreflexive \& Asymmetric
+Anti-transitive
+Level Respecting => Anti-transitive
+
+\subsection{Model Transformations}
+\label{sub:model_transformations}
+
+\section{Cloud Design Tools}
+
+\section{Collaboration Techniques}
+\label{sec:collaboration_techniques}
+
+Lamport Clock
+
+\subsection{Synchronous Collaboration Technologies}
+\label{sub:synchronous_collaboration_technologies}
+
+
+\subsection{Asynchronous Collaboration Technologies}
+\label{sub:asynchronous_collaboration_technologies}
+
+\section{AToMPM}
+\label{sec:atompm}
+
